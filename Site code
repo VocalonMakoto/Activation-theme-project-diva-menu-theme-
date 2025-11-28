@@ -1,0 +1,27 @@
+    if (key === "H6K8-L0M4-N2B7-C9D5") {
+        result.textContent = "The password for that is: w3u5jdn&8ah (please copy paste it)";
+        result.style.color = "turquoise";
+    } 
+    else if (key === "W9P3-R4V2-T7X1-Z5Q0") {
+        result.textContent = "The password for that is: W85Ss385m (please copy paste it)";
+        result.style.color = "turquoise";
+    }
+    else {
+        result.textContent = "Invalid activation key. Please try again.";
+        result.style.color = "red";
+    }
+}
+
+// Mute/Unmute Button
+function toggleMute() {
+    const audio = document.getElementById("bgAudio");
+    const btn = document.getElementById("muteBtn");
+
+    audio.muted = !audio.muted;
+
+    btn.textContent = audio.muted ? "Unmute Audio" : "Mute Audio";
+}
+</script>
+
+</body>
+</html>
